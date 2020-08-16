@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+
+<body class="page">
+    <header class="page__header header">
+        <div class="container">
+            <div class="header__main-block">
+                <a href="/" class="header__logo logo">
+                    <img src="img/logo.svg" width="69" height="15" class="logo__img" alt="">
+                </a>
+                <div class="header__main-nav main-nav">
+                    <button class="main-nav__toggle">
+                        <span class="main-nav__toggle-icon"></span>
+                        <span class="visually-hidden">Открыть меню</span>
+                    </button>
+                    <ul class="main-nav__list">
+                        <li class="main-nav__item">
+                            <a href="#" class="main-nav__link">Money</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="#" class="main-nav__link">Team</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="#" class="main-nav__link">Cards</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="#" class="main-nav__link">Help center</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="#" class="main-nav__link">
+                               <img src="img/icon-gift.svg" class="main-nav__icon" width="24" height="24" alt="">
+                                Invite your parthers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header__control">
+                <button class="button header__button ">
+                    <img class="button__img" src="img/icon-rocket.svg" >
+                    <span class="button__txt">Upgrade plan</span>
+                </button>
+
+                <div class="header__dropdown-nav dropdown-nav">
+                    <div class="dropdown-nav__selected">
+                        <div class="dropdown-nav__avatar">
+                            <img src="img/avatar.png" class="dropdown-nav__avatar-icon" height="12" width="10" alt="">
+                        </div>
+                        <span class="dropdown-nav__txt">TESLA S.R.L.</span>
+                        <img src="img/icon-chevron.svg" class="dropdown-nav__icon" width="24" height="24" alt="">
+                    </div>
+                    
+                    <ul class="dropdown-nav__list">
+                        <li class="dropdown-nav__item">
+                            <span class="dropdown-nav__txt">TESLA S.R.L.</span>
+                        </li>
+                        <li class="dropdown-nav__item">
+                            <span class="dropdown-nav__txt">lorem ipsum</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="page__main">
+        <h1 class="visually-hidden">Заголовок страницы</h1>
+        <div class="container tabs">
+            <div class="tabs__bar">
+                <div class="tabs__group">
+                    <p class="tabs__group-ttl">Personal</p>
+                    <div class="tabs__list">
+                        <div class="tabs__item" id="tab1">
+                            <span class="tabs__txt">Profile</span>
+                        </div>
+                        <div class="tabs__item" id="tab2">
+                            <span class="tabs__txt">Security</span>
+                        </div>
+                        <div class="tabs__item" id="tab3">
+                            <span class="tabs__txt">Notifications</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs__group">
+                    <p class="tabs__group-ttl">Tesla s.r.L.</p>
+                    <div class="tabs__list tabs__list--margin">
+                        <div class="tabs__item" id="tab4">
+                            <span class="tabs__txt">Business profile</span>
+                        </div>
+                        <div class="tabs__item" id="tab5">
+                            <span class="tabs__txt">E-invoicing</span>
+                        </div>
+                        <div class="tabs__item active" id="tab6">
+                            <span class="tabs__txt">Plan and limits</span>
+                        </div>
+                        <div class="tabs__item" id="tab7">
+                            <span class="tabs__txt">Team</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tabs__content">
+                <div class="tabs__panel" id="tab1-panel">
+                    <div class="tabs__content-card card">
+                        <h2 class="ttl2">Profile</h2>
+                    </div>
+                </div>
+                <div class="tabs__panel" id="tab2-panel">
+                    <div class="tabs__content-card card">
+                        <h2 class="ttl2">Security</h2>
+                    </div>
+                </div>
+                <div class="tabs__panel" id="tab3-panel">
+                    <div class="tabs__content-card card">
+                        <h2 class="ttl2">Notifications</h2>
+                    </div>
+                </div>
+                <div class="tabs__panel" id="tab4-panel">
+                    <div class="tabs__content-card card">
+                        <h2 class="ttl2">Business profile</h2>
+                    </div>
+                </div>
+                <div class="tabs__panel" id="tab5-panel">
+                    <div class="tabs__content-card card">
+                        <h2 class="ttl2">E-invoicing</h2>
+                    </div>
+                </div>
+
+                <div class="tabs__panel active" id="tab6-panel">
+                    <div class="tabs__content-card card">
+                        <div class="card__header">
+                            <h2 class="ttl2">Invoicing Start</h2>
+                            <a href="#" class="card__header-link">Change plan</a>
+                            <div class="card__price">
+                                <span class="card__price-value">6,99 €</span>
+                                <span class="card__price-period">/mo</span>
+                            </div>
+                            <div class="card__term">
+                                <span class="card__term-txt">We’ll charge 6,99 € on Jul  24, 2020</span>
+                                <a href="#" class="card__term-link card__term-link--blue">Change card *** 5423  or billing info</a>
+                            </div>
+                            <div class="card__button-group">
+                                <button class="button card__button">Switch to annual plan </button>
+                                <span class="card__button-note">and save 24,00 € a year</span>
+                            </div>
+                        </div>
+
+                        <div class="card__body">
+                            <h3 class="ttl3 ttl3--icon">Explore new features</h3>
+                            <div class="card__features features">
+                                <button class="features__close">
+                                    <img src="img/icon-close.svg" class="features__close-icon" width="16" height="16" alt="">
+                                </button>
+                                <p class="features__ttl">Invoicing Premium</p>
+
+                                <div class="features__price-block">
+                                    <div class="features__price">
+                                        <span class="features__price-value">€20.99</span>
+                                        <span class="features__price-period">/mo</span>
+                                    </div>
+                                    <p class="features__price-note">billed annually or 24.99&nbsp;€ billed monthly</p>
+                                </div>
+
+                                <ul class="features__list">
+                                    <li class="features__item">
+                                        <span class="features__txt">Unlimited outgoing e-invoices</span>
+                                    </li>
+                                    <li class="features__item">
+                                        <span class="features__txt">Unlimited connected banks</span>
+                                    </li>
+                                    <li class="features__item">
+                                        <span class="features__txt">10 users</span>
+                                    </li>
+                                    <li class="features__item">
+                                        <span class="features__txt">Expense management</span>
+                                    </li>
+                                </ul>
+
+                                <button class="button features__button">Upgrade</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__content-card card">
+                        <div class="card__tabs card-tabs">
+                            <div class="card-tabs__bar">
+                                <div id="cardTab1" class="card-tabs__tab active">
+                                    <span class="card-tabs__tab-txt">Limits</span>
+                                </div>
+                                <div id="cardTab2" class="card-tabs__tab">
+                                    <span class="card-tabs__tab-txt">Invoices</span>
+                                </div>
+                            </div>
+
+                            <div class="card-tabs__panel active" id="cardTab1-panel">
+                                <div class="card-tabs__flex">
+                                    <div class="card-tabs__progress-bar progress-bar">
+                                        <div class="progress-bar__top">
+                                            <p class="progress-bar__ttl">Team members</p>
+                                            <span class="progress-bar__count">
+                                                3
+                                                <span class="progress-bar__count--accent">/ 6</span>
+                                            </span>
+                                        </div>
+                                        <div class="progress-bar__bar">
+                                            <div class="progress-bar__item progress-bar__item--success" style="width: 50%;"></div>
+                                        </div>
+                                        <span class="progress-bar__note">
+                                            Need more members?
+                                            <a href="#" class="progress-bar__link">Upgrade your plan</a>
+                                        </span>
+                                    </div>
+                                    <div class="card-tabs__progress-bar progress-bar">
+                                        <div class="progress-bar__top">
+                                            <p class="progress-bar__ttl">Outgoing e-invoices</p>
+                                            <span class="progress-bar__count progress-bar__count--accent"></span>
+                                        </div>
+                                        <div class="progress-bar__bar">
+                                            <div class="progress-bar__item progress-bar__item--success" style="width: 100%"></div>
+                                        </div>
+                                        <span class="progress-bar__note">Send as many e-invoices as you want</span>
+                                    </div>
+                                    <div class="card-tabs__progress-bar progress-bar">
+                                        <div class="progress-bar__top">
+                                            <p class="progress-bar__ttl">Connected sources (banks)</p>
+                                            <span class="progress-bar__count">
+                                                5
+                                                <span class="progress-bar__count--accent">/ 5</span>
+                                            </span>
+                                        </div>
+                                        <div class="progress-bar__bar">
+                                            <div class="progress-bar__item progress-bar__item--error" style="width: 100%"></div>
+                                        </div>
+                                        <span class="progress-bar__note">
+                                            Need more banks to connect?
+                                            <a href="#" class="progress-bar__link">Upgrade your plan</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-tabs__panel" id="cardTab2-panel">
+                                <p class="">Invoices tab's content</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabs__panel" id="tab7-panel">
+                    <div class="tabs__content-card card">
+                        <h2 class="ttl2">Team</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat">
+            <button type="button" class="chat__button">
+                <img src="img/icon-intercom-button.svg" width="21" height="24" class="chat__button-icon">
+            </button>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
